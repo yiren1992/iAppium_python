@@ -11,7 +11,6 @@ poll = 2
 
 @allure.feature('IAppium')
 class IAppium(unittest.TestCase):
-
     def setUp(self):
         desired_caps = {}
         appium_server_url = config['appium_server_url']
