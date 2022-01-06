@@ -8,6 +8,7 @@ from pytest_testconfig import config
 timeout = 30
 poll = 2
 
+
 @allure.feature('IAppium')
 class IAppium(unittest.TestCase):
 
